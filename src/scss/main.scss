@@ -1,13 +1,6 @@
 @import './Core/reset';
 @import './Core/variables';
-
-:root {
-    font-family: Roboto;
-    src: local(Roboto-Regular),
-      url(/path/to/Roboto-Regular.woff2) format("woff2"),
-      url(/path/to/Roboto-Regular.woff) format("woff"),
-      url(/path/to/Roboto-Regular.ttf) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-  }
+@import url(./Layout/_header.scss);
+@import url(./Layout/_hero.scss);
+@import url(./Layout/_reasons.scss);
+@import url(./Layout/_backtoschool.scss);
