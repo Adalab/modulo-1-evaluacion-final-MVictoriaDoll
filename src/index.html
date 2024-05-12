@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Evaluación Victoria</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/main.scss" />
     <link rel="icon" href="./images/favicon.png" />
   </head>
@@ -34,27 +37,41 @@
   <section id="back_to_school" class="backtoschool">
     <p class="intro_backtoschool">¡Prepáralos con tus marcas favoritas!</p>
     <h1 class="Backtoschool_title">Vuelta al cole</h1>
-    <img class="backpack-image" src="./images/lpbts-mod05-img01-desk.png" alt="Niña con mochila">
-    <p class="backpack">Mochilas escolares</p>
-    <img class="case-image" src="./images/lpbts-mod05-img04-mob.png" alt="Niño con estuche">
+    <div class="items"> 
+    <article class="item1"> 
+      <img class="backtoschool-image" src="./images/lpbts-mod05-img01-desk.png" alt="Niña con mochila">
+     <p class="backpack">Mochilas escolares</p>
+    </article>
+    <article class="item2">
+    <img class="backtoschool-image" src="./images/lpbts-mod05-img04-mob.png" alt="Niño con estuche">
     <p class="case">Estuches</p>
-    <img class="image-Sports-bag" src="./images/lpbts-mod05-img03-mob.png" alt="Niña con bolsa de deporte">
+    </article>
+    <article class="item3">
+    <img class="backtoschool-image" src="./images/lpbts-mod05-img03-mob.png" alt="Niña con bolsa de deporte">
     <p class="sportsbag">Bolsas de deporte</p>
-    <a href="https://adalab.es/">Empezar ahora</a>
-    
+  </article>
+  </div>
+    <a class="Start_btn" href="https://adalab.es/">Empezar ahora</a>
+    <button class="ico_arrow"> <img src="./images/ico-arrow.svg" alt=""></button>
   </section>
   </main>
   
-  <footer>
-    @2023
-    We love run
-    Zapatillas
-    Ropa
-    Niño/a
-    Tips
-    Twitter
-    Instagram 
-    Youtube
+  <footer class="footer">  
+    <ul class="products">
+    <li>Zapatillas</li>
+    <li>Ropa</li>
+    <li>Niño/a</li>
+    <li>Tips</li>
+  </ul>
+  <ul class="socialmedia">
+    <li>Twitter</li>
+    <li>Instagram</li>
+    <li>Youtube</li>
+  </ul>
+  <ul class="year">
+    <li>@2023</li>
+    <li>We love run</li>
+  </ul>
    </footer>
   </body>
 </html>

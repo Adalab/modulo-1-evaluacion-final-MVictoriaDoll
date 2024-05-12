@@ -56,4 +56,15 @@ table {
 
 :root {
 	font-family: "Roboto";
+
 }
+
+.selector-para-roboto-slab {
+	font-family: 'Roboto Slab', sans-serif; /* Usa Roboto Slab, con sans-serif como respaldo */
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900

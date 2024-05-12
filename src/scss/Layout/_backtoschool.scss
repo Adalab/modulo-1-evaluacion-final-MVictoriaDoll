@@ -2,4 +2,90 @@
     background-color: #d9e4cc;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+}
+.backtoschool-image {
+    border-radius: 50%;
+    width: 122px;
+    height: 133px;
+    
+}
+
+/*.items {
+    justify-content: center;
+    align-items: center;
+}*/
+
+.intro_backtoschool{
+    font-family: "Roboto Slab";
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #626262;
+}
+
+.Backtoschool_title {
+    font-family: "Roboto Slab";
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.item {
+    font-family: "Roboto Slab";
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+
+.Start_btn {
+    margin: 30px;
+    border-radius: 1em;
+    padding-inline: 2em;
+    font-size: medium;
+    padding-block: 1em;
+    color: white;
+    border-color: #6c933e;
+    background-color: #6c933e;
+    text-decoration: none;
+}
+
+.ico_arrow {
+    position: absolute;
+    bottom: -25px;
+    border-radius: 1em; 
+    padding: 0.5em;
+    padding-inline: 1em;
+
+}
+
+@media (min-width:768px) {
+    .items {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 200px;
+        font-size: 20px;
+    }
+    
+    .backpack {
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .case {
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .sportsbag {
+        text-align: center;
+        white-space: nowrap;
+    }
+
 }

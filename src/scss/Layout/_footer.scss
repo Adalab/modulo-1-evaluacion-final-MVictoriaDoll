@@ -1,0 +1,48 @@
+.footer {
+    background-color: #4a4a4a;
+    color: white;
+    padding-top: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.socialmedia {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+.year {
+    list-style-type: none;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+@media (min-width:768px) {
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .year {
+        order: -1;
+    }
+}
