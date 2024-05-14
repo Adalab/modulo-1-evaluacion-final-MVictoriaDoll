@@ -19,15 +19,16 @@
     </a>
   </header>
   <main>
-  <section class="hero">
- <div class="container">
+  <section id="home" class="hero">
+ <!-- <div class="container">*/-->
      <!-- <div class="mother"> -->
     <h1 class="hero_title">Comienzos compartidos</h1>
     <p class="hero_subtitle">Todo lo que necesitan para volver al cole con ilusión</p>
-    <button class="btn"> <a href="back_to_school"> <img class="ico-scroll-down" src="./images/ico-scroll-down.svg" alt="Icono flecha abajo"></a></button>
+    <a href="#back_to_school" class="btn"> <img class="ico-scroll-down" src="./images/ico-scroll-down.svg" alt="Icono flecha abajo"></a>
+
   <!-- </div> -->
   </section>  
-</div>
+<!-- </div> -->
   <section class="reasons">
     <p class="concept">Historias, moda y ropa deportiva</p>
     <h1 class="reasons_title">Tu tienda de deporte</h1>
@@ -39,39 +40,51 @@
     <h1 class="Backtoschool_title">Vuelta al cole</h1>
     <div class="items"> 
     <article class="item1"> 
-      <img class="backtoschool-image" src="./images/lpbts-mod05-img01-desk.png" alt="Niña con mochila">
-     <p class="backpack">Mochilas escolares</p>
+      <figure>
+        <img class="backtoschool-image" src="./images/lpbts-mod05-img01-desk.png" alt="Niña con mochila">
+        <figcaption class="figtext"> Mochilas escolares </figcaption>
+    </figure>
     </article>
     <article class="item2">
+      <figure>
     <img class="backtoschool-image" src="./images/lpbts-mod05-img04-mob.png" alt="Niño con estuche">
-    <p class="case">Estuches</p>
+      <figcaption class="figtext"> Estuches </figcaption>
+  </figure>
     </article>
     <article class="item3">
+      <figure> 
     <img class="backtoschool-image" src="./images/lpbts-mod05-img03-mob.png" alt="Niña con bolsa de deporte">
-    <p class="sportsbag">Bolsas de deporte</p>
+    <figcaption class="figtext">Bolsas de deporte</figcaption>
+  </figure>
   </article>
   </div>
     <a class="Start_btn" href="https://adalab.es/">Empezar ahora</a>
-    <button class="ico_arrow"> <img src="./images/ico-arrow.svg" alt=""></button>
+    <a href="#home" class="ico_arrow"> <img src="./images/ico-arrow.svg" alt="Icono flecha arriba"></a>
   </section>
   </main>
   
-  <footer class="footer">  
+  <footer class="footer"> 
+    <nav class="linksproducts"> 
     <ul class="products">
-    <li>Zapatillas</li>
-    <li>Ropa</li>
-    <li>Niño/a</li>
-    <li>Tips</li>
+    <li><a href="https://adalab.es/">Zapatillas</a></li>
+    <li><a href="https://adalab.es/">Ropa</a></li>
+    <li><a href="https://adalab.es/">Niño/a</a></li>
+    <li><a href="https://adalab.es/">Tips</a></li>
   </ul>
+</nav>
+<nav class="linkssocialmedia"> 
   <ul class="socialmedia">
-    <li>Twitter</li>
-    <li>Instagram</li>
-    <li>Youtube</li>
+    <li><a href="https://adalab.es/">Twitter</a></li>
+    <li><a href="https://adalab.es/">Instagram</a></li>
+    <li><a href="https://adalab.es/">Youtube</a></li>
   </ul>
+</nav> 
+<nav class="linksyear">
   <ul class="year">
-    <li>@2023</li>
-    <li>We love run</li>
+    <li><a href="https://adalab.es/">@2023</a></li>
+    <li><a href="https://adalab.es/">We love run</a></li>
   </ul>
+</nav>
    </footer>
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 .hero {
     color: #ffff;   
 
@@ -5,44 +6,49 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
-    /*justify-content: left;*/
-
+    
     background-image: url(../images/cover.jpeg);
     background-size: cover;
-    background-position: 85% 50%;
+    background-position: 80% 80%; 
     position: relative;
     z-index: 0;
-    
 }
 
-.container {
+/*.container {
 
     width: 320px;
-    height: 552px;  
+    height: 552px;
     flex-grow: 0;
     text-align: center;
-    /*padding: 0 4.5px 57.9px 0;
+    justify-content: center;
+    text-align: center;
+    padding: 0 4.5px 57.9px 0;
     transform: rotate(-360deg);
-    margin: 320px;*/
-}
+    margin: 320px;
+  }*/
+
 
 
 .hero_title {
-    padding-top: 280px;
-    font-size: 2.5rem;
-    margin: 15px;
+    font-family: "Robotoslab";
+    padding-top: 200px; 
+    font-size: 30px;
+    font-weight: bold;
     line-height: 50PX;
     text-transform: uppercase;
-
-    align-items: center;
-    transform: rotate(-0.23deg)
+    margin-block: 15px;
+    *transform: rotate(-0.23deg)
     
 }
 
 .hero_subtitle {
-    font-size: 1.5rem;
-    margin: 10px; 
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    /*margin: 0px; */
+    text-align: center;
+    max-width: 75%; 
 }
 
 
@@ -50,21 +56,61 @@
     display: flex;
     align-items: center;
     background-color: white;
-    padding: 0.5em;
-    padding-block: 0.5em;
-    border-radius: 1em;
+    padding: 15px;
+    padding-inline: 15px;
+    border-radius: 50%;
     border-color: white;
-    margin: 10px;
-    bottom: 0;
+    margin-top: 10px;
+    bottom: 60px;
     position: absolute;
     left: 50%;
-    bottom: 100px;
-    transform: translateX(-50%);
+    transform: translateX(-50%);    
 }
 
-/*@media (min-width:768px) {
+@media (min-width:768px) {
+    .hero {
+        background-image: url(../images/cover.jpeg);
+        background-size: cover;
+        background-position: 65% 50%;
+        position: relative;
+        z-index: 0;
+
+    }
     .hero_title {
-        font-size: 4.5rem;
+        font-size: 75PX;
+        line-height: 1;
+        text-align: center;
+        /*transform: translateX(-5%)*/    
     }
 
-}*/
+    .hero_subtitle {
+        font-size: 24PX;
+        line-height: 1;
+        /*white-space: nowrap;*/
+        text-align: center;
+        max-width: 40%;
+        /*right:100%;*/
+        /*transform: translateX(-50%)*/
+    }
+    .btn {
+        margin-top: 80%;
+        bottom: 100px;
+    }
+
+
+}
+
+@media (min-width:1280px) {
+    .hero_title {
+        text-align: center;
+        max-width: 40%;
+    }
+    .btn {
+        margin-top: 80%;
+        bottom: 100px;
+    }
+
+    .hero {
+        background-position: 100% 100%; 
+    }
+}

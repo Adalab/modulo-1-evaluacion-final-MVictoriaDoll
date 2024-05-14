@@ -1,3 +1,22 @@
+.linksproducts li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.linkssocialmedia li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.linksyear li a {
+    text-decoration: none;
+    color: white;
+}
+
+
 .footer {
     background-color: #4a4a4a;
     color: white;
@@ -9,12 +28,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
 }
+
 
 .products {
     list-style-type: none;
     text-transform: uppercase;
     text-align: center;
+    text-decoration: none;
 
 }
 
@@ -26,6 +48,8 @@
 .year {
     list-style-type: none;
     text-align: center;
+    font-size: 14px;
+    margin-bottom: 50px;
 }
 
 ul {
@@ -42,7 +66,7 @@ ul li {
         grid-template-columns: repeat(3,1fr);
     }
 
-    .year {
+    .linksyear {
         order: -1;
     }
 }
