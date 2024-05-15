@@ -16,21 +16,6 @@
     z-index: 0;
 }
 
-/*.container {
-
-    width: 320px;
-    height: 552px;
-    flex-grow: 0;
-    text-align: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 4.5px 57.9px 0;
-    transform: rotate(-360deg);
-    margin: 320px;
-  }*/
-
-
-
 .hero_title {
     font-family: "Robotoslab";
     padding-top: 200px; 
@@ -48,7 +33,7 @@
     font-size: 16px;
     /*margin: 0px; */
     text-align: center;
-    max-width: 75%; 
+    max-width: 70%; 
 }
 
 
@@ -65,6 +50,11 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);    
+}
+
+.ico-scroll-down {
+    width: 20px;
+    height: auto;
 }
 
 @media (min-width:768px) {
@@ -94,23 +84,23 @@
     }
     .btn {
         margin-top: 80%;
-        bottom: 100px;
+        bottom: 35px;
     }
 
 
 }
 
-@media (min-width:1280px) {
+@media (min-width:1024px) {
     .hero_title {
         text-align: center;
         max-width: 40%;
     }
     .btn {
         margin-top: 80%;
-        bottom: 100px;
+        bottom: 40px;
     }
 
     .hero {
-        background-position: 100% 100%; 
+        background-position: 60% 60%; 
     }
 }
