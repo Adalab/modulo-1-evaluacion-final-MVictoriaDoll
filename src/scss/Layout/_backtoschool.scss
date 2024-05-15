@@ -9,7 +9,7 @@
     padding: 0px;
     position: relative;
     margin-inline: 1.5px;
-    gap: 5px;
+    gap: 15px;
 }
 .backtoschool-image {
     border-radius: 50%;
@@ -28,7 +28,7 @@
 
 .intro_backtoschool{
     font-family: "Roboto Slab";
-    font-size: 0.8rem;
+    font-size: 12px;
     font-weight: bold;
     color: #626262;
     margin-top: 5px;
@@ -52,11 +52,13 @@
 }
   figcaption {
     color: black;
+    font-size: 14px;
  }
 .Start_btn {
     margin-bottom: 2px;
     border-radius: 22.5px;
-    padding-inline: 1.5em;
+    padding-inline: 25px;
+    padding-block: 5px;
     font-size: 20px;
     font-weight: bold;
     padding-block: 15px;
@@ -104,11 +106,19 @@
         white-space: nowrap;
     }
 
+    .Backtoschool_title {
+        font-size: 28px; 
+    }
+
+    figcaption {
+        font-size: 18px;
+    }
+
 }
 
 @media (min-width:1280px) {
     .items {
-        gap: 200px;
+        gap: 300px;
         align-items: center;
     }
 }

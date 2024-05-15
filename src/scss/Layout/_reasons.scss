@@ -1,50 +1,51 @@
-
-.reasons {
-  max-width: 90%;
-  /*margin: 0 auto;*/   
-}
-
 .concept {
     color: #6c933e;
     font-family: "Roboto";
+    font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
+    
     flex-wrap: nowrap;
     margin-block: 10px;
     margin-inline: 15px;
-    text-align: center;
+    text-align: justify;
+
 
 }
 
 .reasons_title {
     text-transform: uppercase;
+    font-family: "Roboto-Slab", sans-serif;
+    color: black;
+    line-height: 30px;
     font-size: 22px;
-    text-align: center;
-    margin-block: 10px;
+    text-align: justify;
+    margin-block: 0px;
     margin-inline: 10px;
 }
 
 .reasons_text { 
     font-family: "Roboto";
     font-size: 18px;
-    margin-block: 5px;
-    margin-inline: 10px;
-    text-align: center;
-    color: #4a4a4a;
     line-height: 30px;
+    margin-block: 10px;
+    margin-inline: 15px;
+    text-align: justify;
+    color: #4a4a4a;
+    /*line-height: 30px;*/
 
 }
 .Purchase_btn {
-    margin-block: 20px;
+    margin-block: 25px;
     margin-inline: 10px;
-    border-radius: 3em;
-    padding-inline: 2em;
+    border-radius: 32px;
+    padding-inline: 35px;
     font-size: 20px;
     padding-block: 0.5em;
     color: #6c933e;
-    border-color: #6c933e;
+    border: 2px solid #6c933e;
     background-color: white;
-    /*margin-right: 100%;*/
+  
 }
 
 @media (min-width:768px) {
@@ -55,16 +56,17 @@
     }
     .concept {
         font-size: 16PX;
-        text-align: left
+    
     }
     .reasons_title {
         font-size: 32px;
-        text-align: left;
+ 
 
     }
     .reasons_text {
         font-size: 20px;
-        text-align: left;
+       
+  
     }
 }
 
