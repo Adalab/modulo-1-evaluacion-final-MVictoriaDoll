@@ -64,12 +64,15 @@
     padding-block: 15px;
     color: white;
     border-color: #6c933e;
-    background-color: #6c933e;
     text-decoration: none;
     flex-wrap: nowrap;
     margin-bottom: -20px;
+    background-color: #6c933e;
+    transition: background-color 0.5s;
 }
-
+.Start_btn:hover {
+    background-color: #626262;
+  }
 .ico_arrow {
     background-color: white;
     position: relative;
