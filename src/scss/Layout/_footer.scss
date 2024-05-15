@@ -60,9 +60,22 @@ ul li {
     margin-bottom: 10px;
 }
 
-.heart { 
+@keyframes rotateheart {
+    from {  
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(360deg); 
+    }
+  }
+
+
+  .heart {
     color: #6c933e;
-}
+    animation: rotateheart 3s linear infinite;
+  }
+  
+  
 
 @media (min-width:768px) {
     .footer {

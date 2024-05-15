@@ -45,7 +45,12 @@
     color: #6c933e;
     border: 2px solid #6c933e;
     background-color: white;
+    transition: transform 0.3s ease;
   
+}
+
+.Purchase_btn:hover, /*.Purchase_btn:active*/ {
+  transform: scale(1.05) 
 }
 
 @media (min-width:768px) {
